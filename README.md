@@ -2,6 +2,8 @@
 
 **Website:** [wcmesh.com](https://www.wcmesh.com)
 
+**Discord:** [Join Our Active Community](https://discord.com/invite/wcmesh)
+
 West Coast Mesh is a decentralized **LoRa/Meshcore network** designed for reliable communication when traditional systems fail.  
 No **cell service**, **Internet**, or **grid power** required — just long-range, encrypted text communication across a resilient mesh.
 
