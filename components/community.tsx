@@ -31,7 +31,7 @@ export function Community() {
               rel="noopener noreferrer"
               className="inline-block font-mono px-8 py-3 bg-wcm-green text-black font-bold hover:bg-wcm-yellow transition-colors border-2 border-wcm-green hover:border-wcm-yellow"
             >
-              {"[JOIN_THE_COMMUNITY]"}
+              {"[JOIN THE COMMUNITY]"}
             </a>
           </div>
         </div>
