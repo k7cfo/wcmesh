@@ -10,6 +10,8 @@ export const size = {
 export const contentType = "image/png"
 
 export default async function Image() {
+  const logoUrl = new URL("/images/wcmesh-logo.png", "https://wcmesh.com").toString()
+
   return new ImageResponse(
     <div
       style={{
@@ -23,7 +25,6 @@ export default async function Image() {
         padding: "80px",
       }}
     >
-      {/* Logo - using text since we can't easily load external images in OG */}
       <div
         style={{
           display: "flex",
@@ -32,69 +33,20 @@ export default async function Image() {
           gap: "40px",
         }}
       >
-        {/* WiFi Icon representation */}
-        <div
+        <img
+          src={logoUrl || "/placeholder.svg"}
+          alt="West Coast Mesh"
+          width="400"
+          height="400"
           style={{
-            fontSize: "120px",
-            color: "#9CF25B",
-            fontFamily: "monospace",
-            lineHeight: 1,
+            objectFit: "contain",
           }}
-        >
-          📡
-        </div>
-
-        {/* WEST COAST MESH text */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            gap: "0",
-          }}
-        >
-          <div
-            style={{
-              fontSize: "100px",
-              fontWeight: "bold",
-              color: "#9CF25B",
-              fontFamily: "monospace",
-              lineHeight: 0.9,
-              letterSpacing: "8px",
-            }}
-          >
-            WEST
-          </div>
-          <div
-            style={{
-              fontSize: "100px",
-              fontWeight: "bold",
-              color: "#9CF25B",
-              fontFamily: "monospace",
-              lineHeight: 0.9,
-              letterSpacing: "8px",
-            }}
-          >
-            COAST
-          </div>
-          <div
-            style={{
-              fontSize: "100px",
-              fontWeight: "bold",
-              color: "#9CF25B",
-              fontFamily: "monospace",
-              lineHeight: 0.9,
-              letterSpacing: "8px",
-            }}
-          >
-            MESH
-          </div>
-        </div>
+        />
 
         {/* Tagline */}
         <div
           style={{
-            fontSize: "28px",
+            fontSize: "32px",
             color: "#ECECEC",
             fontFamily: "monospace",
             textAlign: "center",
