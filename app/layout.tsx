@@ -42,21 +42,12 @@ export const metadata: Metadata = {
     description:
       "Reliable, decentralized, encrypted communications you can use today. No cell, internet, or power needed. Join our community-driven LoRa mesh network.",
     siteName: "West Coast Mesh",
-    images: [
-      {
-        url: "/images/wcmesh-logo.png",
-        width: 1200,
-        height: 630,
-        alt: "West Coast Mesh - Decentralized Mesh Networking",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "West Coast Mesh - Decentralized Mesh Networking",
     description:
       "Reliable, decentralized, encrypted communications you can use today. No cell, internet, or power needed. Join our community-driven LoRa mesh network.",
-    images: ["/images/wcmesh-logo.png"],
     creator: "@wcmesh",
     site: "@wcmesh",
   },
