@@ -17,7 +17,7 @@ export function About() {
             </p>
             <p className="font-mono text-lg text-wcm-light-gray leading-relaxed">
               It can be used for Off-Grid Communication, Emergency Response & Disaster Recovery, Outdoor Activities,
-              Tactical Security including law enforcement and private security, and also IoT sensor networks.
+              Tactical Security, private security, and IoT sensor networks.
             </p>
           </div>
 

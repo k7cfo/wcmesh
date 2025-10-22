@@ -41,7 +41,7 @@ export function Hero() {
             href="#getting-started"
             className="font-mono px-8 py-3 bg-wcm-green text-black font-bold hover:bg-wcm-yellow transition-colors border-2 border-wcm-green hover:border-wcm-yellow"
           >
-            {"[GET_STARTED]"}
+            {"[GET STARTED]"}
           </a>
         </div>
       </div>

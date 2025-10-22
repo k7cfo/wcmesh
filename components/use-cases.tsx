@@ -15,7 +15,7 @@ export function UseCases() {
     {
       icon: Building2,
       title: "Tactical Security",
-      description: "Secure communications for law enforcement and private security operations",
+      description: "Secure communications for individuals and private security operations",
     },
     {
       icon: Cpu,
