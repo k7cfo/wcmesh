@@ -14,7 +14,69 @@ const spaceMono = Space_Mono({
 export const metadata: Metadata = {
   title: "West Coast Mesh - Decentralized Mesh Networking",
   description:
-    "Off-line and Off-grid messaging platform for a new era of secure communications. Connect people and things without using the internet.",
+    "Reliable, decentralized, encrypted communications you can use today. No cell, internet, or power needed. Join our community-driven LoRa mesh network.",
+  keywords: [
+    "mesh networking",
+    "LoRa",
+    "decentralized communication",
+    "off-grid messaging",
+    "encrypted communications",
+    "West Coast Mesh",
+    "WCM",
+    "MeshCore",
+    "emergency communications",
+    "peer-to-peer network",
+  ],
+  authors: [{ name: "West Coast Mesh Community" }],
+  creator: "West Coast Mesh",
+  publisher: "West Coast Mesh",
+  metadataBase: new URL("https://wcmesh.com"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://wcmesh.com",
+    title: "West Coast Mesh - Decentralized Mesh Networking",
+    description:
+      "Reliable, decentralized, encrypted communications you can use today. No cell, internet, or power needed. Join our community-driven LoRa mesh network.",
+    siteName: "West Coast Mesh",
+    images: [
+      {
+        url: "/images/wcmesh-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "West Coast Mesh - Decentralized Mesh Networking",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "West Coast Mesh - Decentralized Mesh Networking",
+    description:
+      "Reliable, decentralized, encrypted communications you can use today. No cell, internet, or power needed. Join our community-driven LoRa mesh network.",
+    images: ["/images/wcmesh-logo.png"],
+    creator: "@wcmesh",
+    site: "@wcmesh",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
   generator: "v0.app",
 }
 
