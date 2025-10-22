@@ -96,8 +96,16 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-wcm-green pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="font-mono text-sm text-wcm-gray">© 2025 West Coast Mesh. All rights reserved.</p>
-          <img src="/images/wcmesh-logo-horizontal-green.svg" alt="WCM" className="h-6 w-auto" />
+          <p className="font-mono text-xs text-wcm-gray max-w-3xl text-center sm:text-left leading-relaxed">
+            © 2025 West Coast Mesh. All rights reserved. West Coast Mesh is not responsible for the actions of its
+            members or the placement of equipment. This network is provided "as is" without warranty of any kind,
+            expressed or implied. West Coast Mesh is not intended to be used as a life-saving or emergency service. In
+            case of emergency, dial 911. Use of this network is at your own risk.
+          </p>
+          <div className="flex items-center gap-4">
+            <img src="/images/meshcore-logo.png" alt="MeshCore" className="h-6 w-auto" />
+            <img src="/images/wcmesh-logo-horizontal-green.svg" alt="WCM" className="h-6 w-auto" />
+          </div>
         </div>
       </div>
     </footer>
