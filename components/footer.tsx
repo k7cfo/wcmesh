@@ -77,6 +77,16 @@ export function Footer() {
                   {"> GitHub MeshCore"}
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://github.com/k7cfo/wcmesh/issues/new"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-wcm-gray hover:text-wcm-green transition-colors"
+                >
+                  {"> Submit Bug/Suggestion"}
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -102,7 +112,7 @@ export function Footer() {
             expressed or implied. West Coast Mesh is not intended to be used as a life-saving or emergency service. In
             case of emergency, dial 911. Use of this network is at your own risk.
           </p>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 shrink-0">
             <img src="/images/meshcore-logo.png" alt="MeshCore" className="h-6 w-auto" />
             <img src="/images/wcmesh-logo-horizontal-green.svg" alt="WCM" className="h-6 w-auto" />
           </div>
