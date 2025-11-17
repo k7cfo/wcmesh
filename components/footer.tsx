@@ -107,10 +107,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-wcm-green pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="font-mono text-xs text-wcm-gray max-w-3xl text-center sm:text-left leading-relaxed">
-            © 2025 West Coast Mesh. All rights reserved. West Coast Mesh is not responsible for the actions of its
-            members or the placement of equipment. This network is provided "as is" without warranty of any kind,
-            expressed or implied. West Coast Mesh is not intended to be used as a life-saving or emergency service. In
-            case of emergency, dial 911. Use of this network is at your own risk.
+            © 2025 West Coast Mesh. All rights reserved. West Coast Mesh is a decentralized organization that organizes information. The network is supplied, operated, and maintained by independent users and members, and West Coast Mesh does not control or supervise the actions of its members, the placement or operation of any equipment, or the configuration or use of the network. This network is provided “as is” without any warranty of any kind, express or implied. West Coast Mesh is not intended to be used as a life-saving or emergency service. In an emergency, dial 911 or your local emergency number. Your use of this network is solely at your own risk.
           </p>
           <div className="flex items-center gap-4 shrink-0">
             <img src="/images/meshcore-logo.png" alt="MeshCore" className="h-6 w-auto" />
