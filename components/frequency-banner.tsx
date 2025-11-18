@@ -1,6 +1,6 @@
 export function FrequencyBanner() {
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-[#4D4D4D] text-wcm-light-gray">
+    <div className="fixed top-0 left-0 right-0 z-50 bg-muted text-foreground">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-center gap-4">
           <img src="/images/wcmesh-logo-horizontal-white.svg" alt="West Coast Mesh" className="h-8 w-auto" />

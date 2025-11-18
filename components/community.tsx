@@ -10,7 +10,7 @@ export function Community() {
 
           <div className="space-y-6 font-mono text-wcm-light-gray">
             <p className="text-lg leading-relaxed">
-              <span className="text-wcm-green font-bold">:(WCMESH)</span> is inspired by a community of radio enthusiasts
+              <span className="text-wcm-green font-bold">:(WCMESH)</span> is a community of radio enthusiasts
             </p>
 
             <p className="text-lg leading-relaxed">
@@ -18,7 +18,7 @@ export function Community() {
             </p>
 
             <p className="text-lg leading-relaxed">
-              <span className="text-wcm-green font-bold">:[Undeterred by challenge]</span> our team is rolling up their sleeves, compiling code, heating up the soldering iron, and building a mesh we all believe in
+              <span className="text-wcm-green font-bold">:[Undeterred by challenge]</span> members are rolling up their sleeves, compiling code, heating up the soldering iron, and building a robust community mesh
             </p>
 
             <p className="text-xl text-wcm-green font-bold text-center mt-8">One [packet] at a time</p>
