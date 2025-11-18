@@ -1,8 +1,8 @@
-import { MessageSquare } from "lucide-react"
+import { MessageSquare } from 'lucide-react'
 
 export function Footer() {
   return (
-    <footer className="bg-black border-t-2 border-wcm-green py-12">
+    <footer className="bg-background border-t-2 border-wcm-green py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Logo and tagline */}
@@ -77,16 +77,6 @@ export function Footer() {
                   {"> GitHub MeshCore"}
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://github.com/k7cfo/wcmesh/issues/new"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-wcm-gray hover:text-wcm-green transition-colors"
-                >
-                  {"> Submit Bug/Suggestion"}
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -96,7 +86,7 @@ export function Footer() {
               href="https://discord.com/invite/wcmesh"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-6 py-3 border-2 border-wcm-green text-wcm-green hover:bg-wcm-green hover:text-black transition-colors font-mono font-bold"
+              className="inline-flex items-center gap-3 px-6 py-3 border-2 border-wcm-green text-wcm-green hover:bg-wcm-green hover:text-primary-foreground transition-colors font-mono font-bold"
             >
               <MessageSquare className="w-5 h-5" />
               <span>JOIN DISCORD</span>

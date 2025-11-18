@@ -2,7 +2,7 @@ import { Radio, Shield, Zap } from 'lucide-react'
 
 export function About() {
   return (
-    <section id="about" className="py-20 bg-black">
+    <section id="about" className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <header className="mb-12 text-center">

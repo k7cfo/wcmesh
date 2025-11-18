@@ -2,13 +2,13 @@ import { Radio, Users, MapPin, MessageSquare } from 'lucide-react'
 
 export function GettingStarted() {
   return (
-    <section id="getting-started" className="py-20 bg-black">
+    <section id="getting-started" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <header className="text-center mb-16">
           <h2 className="font-mono text-3xl sm:text-4xl lg:text-5xl font-bold text-wcm-light-gray mb-4">
             Get Started with West Coast Mesh
           </h2>
-          <p className="font-mono text-base sm:text-lg text-gray-400 max-w-3xl mx-auto">
+          <p className="font-mono text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
             Join your community to experience reliable communications without traditional infrastructure
           </p>
         </header>
@@ -22,7 +22,7 @@ export function GettingStarted() {
             <h3 className="font-mono text-lg font-bold text-wcm-light-gray mb-3 text-center">
               1. Join Discord
             </h3>
-            <p className="font-mono text-sm text-gray-400 text-center leading-relaxed">
+            <p className="font-mono text-sm text-muted-foreground text-center leading-relaxed">
               Connect with the community for setup help and network updates
             </p>
             <div className="mt-4 text-center">
@@ -45,8 +45,8 @@ export function GettingStarted() {
             <h3 className="font-mono text-lg font-bold text-wcm-light-gray mb-3 text-center">
               2. Get a Device
             </h3>
-            <p className="font-mono text-sm text-gray-400 text-center leading-relaxed">
-              Acquire a LoRa-compatible device.  Shop around or try the following:      
+            <p className="font-mono text-sm text-muted-foreground text-center leading-relaxed">
+              Acquire a LoRa-compatible device. Shop around or try the following:
             </p>
             <div className="mt-4 text-center">
               <a
@@ -68,8 +68,8 @@ export function GettingStarted() {
             <h3 className="font-mono text-lg font-bold text-wcm-light-gray mb-3 text-center">
               3. Configure Settings
             </h3>
-            <p className="font-mono text-sm text-gray-400 text-center leading-relaxed">
-              Talk with fellow members on discord to determine the best frequency for your area                
+            <p className="font-mono text-sm text-muted-foreground text-center leading-relaxed">
+              Talk with fellow members on discord to determine the best frequency for your area
             </p>
           </article>
 
@@ -81,7 +81,7 @@ export function GettingStarted() {
             <h3 className="font-mono text-lg font-bold text-wcm-light-gray mb-3 text-center">
               4. Start Messaging
             </h3>
-            <p className="font-mono text-sm text-gray-400 text-center leading-relaxed">
+            <p className="font-mono text-sm text-muted-foreground text-center leading-relaxed">
               Begin communicating with others on the mesh network
             </p>
           </article>
