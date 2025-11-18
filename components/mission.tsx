@@ -16,13 +16,13 @@ export function Mission() {
           <div className="border-2 border-wcm-green p-6 bg-wcm-dark-gray">
             <div className="font-mono text-4xl font-bold text-wcm-green mb-2">01</div>
             <h3 className="font-mono text-lg font-bold text-wcm-light-gray mb-2">Security</h3>
-            <p className="font-mono text-sm text-wcm-light-gray">Military-grade encryption for all communications</p>
+            <p className="font-mono text-sm text-wcm-light-gray"> Encryption for all communications</p>
           </div>
 
           <div className="border-2 border-wcm-green p-6 bg-wcm-dark-gray">
             <div className="font-mono text-4xl font-bold text-wcm-green mb-2">02</div>
             <h3 className="font-mono text-lg font-bold text-wcm-light-gray mb-2">Reliability</h3>
-            <p className="font-mono text-sm text-wcm-light-gray">Robust mesh networking that works when you need it</p>
+            <p className="font-mono text-sm text-wcm-light-gray">Robust mesh networking that just works</p>
           </div>
 
           <div className="border-2 border-wcm-green p-6 bg-wcm-dark-gray">

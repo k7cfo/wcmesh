@@ -14,10 +14,10 @@ export function About() {
           {/* Main Description */}
           <article className="space-y-6">
             <p className="font-mono text-lg text-wcm-light-gray leading-relaxed">
-              West Coast Mesh is an information hub on Discord that helps people across the West Coast use MeshCore. The network is community‑driven and built by users like you with simple, off‑the‑shelf LoRa radios.
+              West Coast Mesh is a community hub for individuals building the West Coast&#39;s largest decentralized mesh network. This network is entirely user-supplied, powered by people like you.
             </p>
             <p className="font-mono text-lg text-wcm-light-gray leading-relaxed">
-              Powered by MeshCore software, this user‑supplied network supports Off‑Grid Communication, Emergency Response &amp; Disaster Recovery, Outdoor Activities, Tactical Security, private security, and IoT sensor networks.
+              {"Our community utilizes MeshCore software, enabling secure connections for Off-Grid use, Family Communications, Emergency Response & Disaster Recovery, Outdoor Activities, and IoT sensor networks."}
             </p>
           </article>
 

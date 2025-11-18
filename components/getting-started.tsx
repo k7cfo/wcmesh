@@ -46,7 +46,7 @@ export function GettingStarted() {
               2. Get a Device
             </h3>
             <p className="font-mono text-sm text-gray-400 text-center leading-relaxed">
-              Acquire a LoRa-compatible device.  Lots of options.  We recommenend:     
+              Acquire a LoRa-compatible device.  Shop around or try the following:      
             </p>
             <div className="mt-4 text-center">
               <a
@@ -69,7 +69,7 @@ export function GettingStarted() {
               3. Configure Settings
             </h3>
             <p className="font-mono text-sm text-gray-400 text-center leading-relaxed">
-              Talk with fellow members on discord to determine the best frequency for your area.                
+              Talk with fellow members on discord to determine the best frequency for your area                
             </p>
           </article>
 
