@@ -27,7 +27,7 @@ export function GettingStarted() {
             </p>
             <div className="mt-4 text-center">
               <a
-                href="https://discord.com/invite/wcmesh"
+                href="https://discord.gg/wcmesh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-mono text-sm text-wcm-green hover:text-wcm-yellow transition-colors underline"
