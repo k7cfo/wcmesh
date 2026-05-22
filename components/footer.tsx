@@ -19,7 +19,7 @@ export function Footer() {
             <ul className="space-y-2 font-mono text-sm">
               <li>
                 <a
-                  href="https://docs.meshcore.io/faq/"
+                  href="https://wiki.wcmesh.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-wcm-gray hover:text-wcm-green transition-colors"
@@ -29,12 +29,12 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://meshcore.io/#download"
+                  href="https://docs.meshcore.io/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-wcm-gray hover:text-wcm-green transition-colors"
                 >
-                  {"> Apps"}
+                  {"> Docs"}
                 </a>
               </li>
               <li>
@@ -49,32 +49,12 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://map.wcmesh.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-wcm-gray hover:text-wcm-green transition-colors"
-                >
-                  {"> Map"}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/k7cfo/wcmesh"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-wcm-gray hover:text-wcm-green transition-colors"
-                >
-                  {"> GitHub WCMESH"}
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://github.com/meshcore-dev/MeshCore"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-wcm-gray hover:text-wcm-green transition-colors"
                 >
-                  {"> GitHub MeshCore"}
+                  {"> MeshCore GitHub"}
                 </a>
               </li>
               <li>
