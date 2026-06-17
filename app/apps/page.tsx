@@ -51,7 +51,7 @@ export default function AppsPage() {
               </header>
               <div className="flex justify-center">
                 <a
-                  href="https://apps.apple.com/gb/app/meshcore/id6742354151"
+                  href="https://apps.apple.com/us/app/meshcore/id6742354151"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 font-mono text-sm bg-wcm-green text-primary-foreground hover:bg-wcm-green/90 transition-colors border-2 border-wcm-green"
@@ -77,15 +77,6 @@ export default function AppsPage() {
                 >
                   <ExternalLink className="w-4 h-4" />
                   Start Meshcore Web Client
-                </a>
-                <a
-                  href="https://meshcore.liamcottle.net/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3 font-mono text-sm bg-wcm-green text-primary-foreground hover:bg-wcm-green/90 transition-colors border-2 border-wcm-green"
-                >
-                  <ExternalLink className="w-4 h-4" />
-                  Start Liam Cottle Web Client
                 </a>
               </div>
             </section>

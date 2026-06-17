@@ -30,6 +30,20 @@ export function FrequencyBanner() {
       codingRate: "5",
     },
     {
+      region: "Central Valley",
+      freq: "910.525",
+      bandwidth: "62.5kHz",
+      spreadFactor: "7",
+      codingRate: "5",
+    },
+    {
+      region: "Central Coast",
+      freq: "910.525",
+      bandwidth: "62.5kHz",
+      spreadFactor: "7",
+      codingRate: "5",
+    },
+    {
       region: "Pacific No. West",
       freq: "910.525",
       bandwidth: "62.5kHz",

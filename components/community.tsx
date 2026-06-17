@@ -35,7 +35,7 @@ export function Community() {
           {/* Join Community Button */}
           <footer className="mt-12 text-center">
             <a
-              href="https://discord.com/invite/wcmesh"
+              href="https://discord.gg/wcmesh"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block font-mono px-8 py-3 bg-wcm-green text-primary-foreground font-bold hover:bg-wcm-yellow transition-colors border-2 border-wcm-green hover:border-wcm-yellow"

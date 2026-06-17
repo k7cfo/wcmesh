@@ -19,7 +19,7 @@ export function Footer() {
             <ul className="space-y-2 font-mono text-sm">
               <li>
                 <a
-                  href="https://github.com/meshcore-dev/MeshCore/blob/main/docs/faq.md"
+                  href="https://wiki.wcmesh.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-wcm-gray hover:text-wcm-green transition-colors"
@@ -29,17 +29,17 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://meshcore.co.uk/apps.html"
+                  href="https://docs.meshcore.io/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-wcm-gray hover:text-wcm-green transition-colors"
                 >
-                  {"> Apps"}
+                  {"> Docs"}
                 </a>
               </li>
               <li>
                 <a
-                  href="https://flasher.meshcore.co.uk/"
+                  href="https://flasher.meshcore.io/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-wcm-gray hover:text-wcm-green transition-colors"
@@ -49,32 +49,12 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://map.wcmesh.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-wcm-gray hover:text-wcm-green transition-colors"
-                >
-                  {"> Map"}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/k7cfo/wcmesh"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-wcm-gray hover:text-wcm-green transition-colors"
-                >
-                  {"> GitHub WCMESH"}
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://github.com/meshcore-dev/MeshCore"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-wcm-gray hover:text-wcm-green transition-colors"
                 >
-                  {"> GitHub MeshCore"}
+                  {"> MeshCore GitHub"}
                 </a>
               </li>
               <li>
@@ -93,7 +73,7 @@ export function Footer() {
           <div>
             <h3 className="font-mono text-wcm-green font-bold mb-4">{":[CONNECT]"}</h3>
             <a
-              href="https://discord.com/invite/wcmesh"
+              href="https://discord.gg/wcmesh"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-3 border-2 border-wcm-green text-wcm-green hover:bg-wcm-green hover:text-primary-foreground transition-colors font-mono font-bold"

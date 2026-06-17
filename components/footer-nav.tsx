@@ -9,7 +9,7 @@ export function FooterNav() {
           {/* Discord Link */}
           <li>
             <a
-              href="https://discord.com/invite/wcmesh"
+              href="https://discord.gg/wcmesh"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-2 text-foreground hover:text-wcm-green transition-colors"
@@ -33,7 +33,7 @@ export function FooterNav() {
           {/* Web Flasher Link */}
           <li>
             <a
-              href="https://flasher.meshcore.co.uk/"
+              href="https://flasher.meshcore.io/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-2 text-foreground hover:text-wcm-green transition-colors"
